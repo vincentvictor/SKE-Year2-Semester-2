@@ -1,0 +1,136 @@
+_malloc(0x24)
+  returns 0x7fff6640cbb0
+_malloc(0x15)
+  returns 0x7fff6640cbd8
+_malloc(0x8)
+  returns 0x7fff6640cbf0
+_malloc(0x8)
+  returns 0x7fff6640cbf8
+_malloc(0x640)
+  returns 0x7fff6640cc00
+_malloc(0x80)
+  returns 0x7fff6640d240
+_malloc(0x20)
+  returns 0x7fff6640d2c0
+_malloc(0x20)
+  returns 0x7fff6640d2e0
+_malloc(0x80)
+  returns 0x7fff6640d300
+_malloc(0x80)
+  returns 0x7fff6640d380
+_malloc(0x18)
+  returns 0x7fff6640d400
+_malloc(0x90)
+  returns 0x7fff6640d418
+_malloc(0x12c0)
+  returns 0x7fff6640d4a8
+_malloc(0x30)
+  returns 0x7fff6640e768
+_free(0x7fff6640d400)
+_malloc(0x19c)
+  returns 0x7fff6640e798
+_malloc(0xcc)
+  returns 0x7fff6640e938
+_malloc(0xd4)
+  returns 0x7fff6640ea08
+_malloc(0xb4)
+  returns 0x7fff6640eae0
+_malloc(0xdc)
+  returns 0x7fff6640eb98
+_malloc(0xcc)
+  returns 0x7fff6640ec78
+_malloc(0xdc)
+  returns 0x7fff6640ed48
+_malloc(0xbc)
+  returns 0x7fff6640ee28
+_malloc(0xb4)
+  returns 0x7fff6640eee8
+_malloc(0x88)
+  returns 0x7fff6640efa0
+_malloc(0xac)
+  returns 0x7fff6640f028
+_malloc(0xd4)
+  returns 0x7fff6640f0d8
+_malloc(0xb4)
+  returns 0x7fff6640f1b0
+_malloc(0xec)
+  returns 0x7fff6640f268
+_malloc(0x9c)
+  returns 0x7fff6640f358
+_malloc(0xfc)
+  returns 0x7fff6640f3f8
+_malloc(0xe4)
+  returns 0x7fff6640f4f8
+_malloc(0xd4)
+  returns 0x7fff6640f5e0
+_malloc(0xdc)
+  returns 0x7fff6640f6b8
+_malloc(0xdc)
+  returns 0x7fff6640f798
+_malloc(0xfc)
+  returns 0x7fff6640f878
+_malloc(0x84)
+  returns 0x7fff6640f978
+_malloc(0x94)
+  returns 0x7fff6640fa00
+_malloc(0xac)
+  returns 0x7fff6640fa98
+_malloc(0x124)
+  returns 0x7fff6640fb48
+_malloc(0xdc)
+  returns 0x7fff6640fc70
+_malloc(0xd4)
+  returns 0x7fff6640fd50
+_malloc(0x9c)
+  returns 0x7fff6640fe28
+_malloc(0xa4)
+  returns 0x7fff6640fec8
+_malloc(0xc4)
+  returns 0x7fff6640ff70
+_malloc(0xec)
+  returns 0x7fff66410038
+_malloc(0xd4)
+  returns 0x7fff66410128
+_malloc(0xe4)
+  returns 0x7fff66410200
+_malloc(0xb0)
+  returns 0x7fff664102e8
+_malloc(0xb4)
+  returns 0x7fff66410398
+_malloc(0xec)
+  returns 0x7fff66410450
+_malloc(0xa4)
+  returns 0x7fff66410540
+_malloc(0x9c)
+  returns 0x7fff664105e8
+_malloc(0x8c)
+  returns 0x7fff66410688
+_malloc(0x94)
+  returns 0x7fff66410718
+_malloc(0x8c)
+  returns 0x7fff664107b0
+_malloc(0x18)
+  returns 0x7fff66410840
+_malloc(0x30)
+  returns 0x7fff66410858
+_free(0x7fff66410840)
+_malloc(0x60)
+  returns 0x7fff66410888
+_free(0x7fff66410858)
+_malloc(0xc0)
+  returns 0x7fff664108e8
+_free(0x7fff66410888)
+_free(0x7fff664108e8)
+_malloc(0x8)
+  returns 0x7f8900d00000
+_malloc(0x10)
+  returns 0x7f8900c00030
+_free(0x7f8900d00000)
+_malloc(0x10)
+  returns 0x7f8900e00000
+_free(0x7fff6640cbf8)
+_malloc(0x8)
+  returns 0x7f8900d002a0
+_malloc(0x20)
+  returns 0x7f8900e01600
+_free(0x7f8900c00030)

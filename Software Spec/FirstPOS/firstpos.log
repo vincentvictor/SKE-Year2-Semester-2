@@ -1,0 +1,255 @@
+18:51:50 INFO  firstgen.store.ProductCatalog:<init> - Creating a mock product catalog from Stock enum
+18:51:50 INFO  firstgen.store.ProductCatalog:<init> - add to catalog: id 011 Jasmine Brown Rice, 5kg
+18:51:50 INFO  firstgen.store.ProductCatalog:<init> - add to catalog: id 012 3-No Light Soy Sauce
+18:51:50 INFO  firstgen.store.ProductCatalog:<init> - add to catalog: id 013 Coca-Cola, 1.25L
+18:51:50 INFO  firstgen.store.ProductCatalog:<init> - add to catalog: id 014 Pepsi Cola, 1.25Liter
+18:51:50 INFO  firstgen.store.ProductCatalog:<init> - add to catalog: id 015 Medium Tofu, 250gram
+18:51:50 INFO  firstgen.store.ProductCatalog:<init> - add to catalog: id 016 Red Medium Apple, each
+18:51:50 INFO  firstgen.store.ProductCatalog:<init> - add to catalog: id 017 Whole Papaya, 1kg
+18:51:50 INFO  firstgen.store.ProductCatalog:<init> - add to catalog: id 018 Banana Cake, 250gram
+18:51:50 INFO  firstgen.store.ProductCatalog:<init> - add to catalog: id 019 Fruit Cake, 250gram
+18:51:50 INFO  firstgen.store.ProductCatalog:<init> - add to catalog: id 020 Peanuts, 100gram
+18:51:50 INFO  firstgen.store.ProductCatalog:<init> - Catalog contains 10 items
+18:51:50 INFO  firstgen.util.PropertyManager:loadProperties - loading properties from firstgen.properties
+18:51:50 DEBUG firstgen.util.PropertyManager:loadProperties - taxCalculator=firstgen.service.VATCalculator
+
+18:51:50 DEBUG firstgen.util.PropertyManager:loadProperties - salePricing=firstgen.service.PercentDiscount
+
+18:52:12 INFO  firstgen.store.ProductCatalog:getItem - looking for item 11
+18:52:12 INFO  firstgen.store.ProductCatalog:getItem - Item id 11 not found in catalog
+18:52:12 DEBUG firstgen.domain.Sale:addItem - adding item = null
+18:52:12 WARN  firstgen.domain.Sale:addItem - attempt to add null item to sale
+18:52:19 INFO  firstgen.store.ProductCatalog:getItem - looking for item 115
+18:52:19 INFO  firstgen.store.ProductCatalog:getItem - Item id 115 not found in catalog
+18:52:19 DEBUG firstgen.domain.Sale:addItem - adding item = null
+18:52:19 WARN  firstgen.domain.Sale:addItem - attempt to add null item to sale
+19:10:48 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Creating a mock product catalog from Stock enum
+19:10:48 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 10 Green Tea, 50gram
+19:10:48 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 11 Jasmine Brown Rice, 5kg
+19:10:48 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 12 3-No Light Soy Sauce
+19:10:48 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 13 Coca-Cola, 1.25L
+19:10:48 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 14 Pepsi Cola, 1.25Liter
+19:10:48 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 15 Medium Tofu, 250gram
+19:10:48 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 16 Red Medium Apple, each
+19:10:48 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 17 Whole Papaya, 1kg
+19:10:48 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 18 Banana Cake, 250gram
+19:10:48 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 19 Fruit Cake, 250gram
+19:10:48 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 20 Peanuts, 100gram
+19:10:48 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Catalog contains 11 items
+19:10:48 INFO  firstgen.util.PropertyManager:loadProperties - loading properties from firstgen.properties
+19:10:48 DEBUG firstgen.util.PropertyManager:loadProperties - taxCalculator=firstgen.service.VATCalculator
+
+19:10:48 DEBUG firstgen.util.PropertyManager:loadProperties - salePricing=firstgen.service.PercentDiscount
+
+19:10:56 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 11
+19:10:56 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - found 11
+19:10:56 DEBUG firstgen.domain.Sale:addItem - adding item = Jasmine Brown Rice, 5kg @ 105.00
+19:11:05 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 14
+19:11:05 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - found 14
+19:11:05 DEBUG firstgen.domain.Sale:addItem - adding item = Pepsi Cola, 1.25Liter @ 23.00
+19:11:22 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 14
+19:11:22 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - found 14
+19:11:22 DEBUG firstgen.domain.Sale:addItem - adding item = Pepsi Cola, 1.25Liter @ 23.00
+19:14:21 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Creating a mock product catalog from Stock enum
+19:14:21 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 10 Green Tea, 50gram
+19:14:21 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 11 Jasmine Brown Rice, 5kg
+19:14:21 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 12 3-No Light Soy Sauce
+19:14:21 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 13 Coca-Cola, 1.25L
+19:14:21 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 14 Pepsi Cola, 1.25Liter
+19:14:21 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 15 Medium Tofu, 250gram
+19:14:21 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 16 Red Medium Apple, each
+19:14:21 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 17 Whole Papaya, 1kg
+19:14:21 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 18 Banana Cake, 250gram
+19:14:21 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 19 Fruit Cake, 250gram
+19:14:21 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 20 Peanuts, 100gram
+19:14:21 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Catalog contains 11 items
+19:14:21 INFO  firstgen.util.PropertyManager:loadProperties - loading properties from firstgen.properties
+19:14:21 DEBUG firstgen.util.PropertyManager:loadProperties - taxCalculator=firstgen.service.VATCalculator
+
+19:14:21 DEBUG firstgen.util.PropertyManager:loadProperties - salePricing=firstgen.service.PercentDiscount
+
+19:14:28 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 11
+19:14:28 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - found 11
+19:14:28 DEBUG firstgen.domain.Sale:addItem - adding item = Jasmine Brown Rice, 5kg @ 105.00
+19:14:28 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+19:14:36 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 14
+19:14:36 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - found 14
+19:14:36 DEBUG firstgen.domain.Sale:addItem - adding item = Pepsi Cola, 1.25Liter @ 23.00
+19:14:36 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+19:14:56 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 18
+19:14:56 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - found 18
+19:14:56 DEBUG firstgen.domain.Sale:addItem - adding item = Banana Cake, 250gram @ 30.00
+19:14:56 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+19:15:01 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 20
+19:15:01 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - found 20
+19:15:01 DEBUG firstgen.domain.Sale:addItem - adding item = Peanuts, 100gram @ 10.00
+19:15:01 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+19:15:07 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 21
+19:15:07 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - Item id 21 not found in catalog
+19:15:07 DEBUG firstgen.domain.Sale:addItem - adding item = null
+19:15:07 WARN  firstgen.domain.Sale:addItem - attempt to add null item to sale
+19:15:09 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 21
+19:15:09 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - Item id 21 not found in catalog
+19:15:09 DEBUG firstgen.domain.Sale:addItem - adding item = null
+19:15:09 WARN  firstgen.domain.Sale:addItem - attempt to add null item to sale
+11:54:10 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Creating a mock product catalog from Stock enum
+11:54:10 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 10 Green Tea, 50gram
+11:54:10 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 11 Jasmine Brown Rice, 5kg
+11:54:10 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 12 3-No Light Soy Sauce
+11:54:10 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 13 Coca-Cola, 1.25L
+11:54:10 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 14 Pepsi Cola, 1.25Liter
+11:54:10 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 15 Medium Tofu, 250gram
+11:54:10 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 16 Red Medium Apple, each
+11:54:10 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 17 Whole Papaya, 1kg
+11:54:10 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 18 Banana Cake, 250gram
+11:54:10 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 19 Fruit Cake, 250gram
+11:54:10 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 20 Peanuts, 100gram
+11:54:10 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Catalog contains 11 items
+11:54:10 INFO  firstgen.util.PropertyManager:loadProperties - loading properties from firstgen.properties
+11:54:10 DEBUG firstgen.util.PropertyManager:loadProperties - taxCalculator=firstgen.service.VATCalculator
+
+11:54:10 DEBUG firstgen.util.PropertyManager:loadProperties - salePricing=firstgen.service.PercentDiscount
+
+11:54:19 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 11
+11:54:19 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - found 11
+11:54:19 DEBUG firstgen.domain.Sale:addItem - adding item = Jasmine Brown Rice, 5kg @ 105.00
+11:54:19 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+11:54:26 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 14
+11:54:26 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - found 14
+11:54:26 DEBUG firstgen.domain.Sale:addItem - adding item = Pepsi Cola, 1.25Liter @ 23.00
+11:54:26 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+11:54:35 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 14
+11:54:35 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - found 14
+11:54:35 DEBUG firstgen.domain.Sale:addItem - adding item = Pepsi Cola, 1.25Liter @ 23.00
+11:54:35 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+11:54:51 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 888
+11:54:51 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - Item id 888 not found in catalog
+11:54:51 DEBUG firstgen.domain.Sale:addItem - adding item = null
+11:54:51 WARN  firstgen.domain.Sale:addItem - attempt to add null item to sale
+11:54:52 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 888
+11:54:52 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - Item id 888 not found in catalog
+11:54:52 DEBUG firstgen.domain.Sale:addItem - adding item = null
+11:54:52 WARN  firstgen.domain.Sale:addItem - attempt to add null item to sale
+12:52:18 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Creating a mock product catalog from Stock enum
+12:52:18 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 10 Green Tea, 50gram
+12:52:18 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 11 Jasmine Brown Rice, 5kg
+12:52:18 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 12 3-No Light Soy Sauce
+12:52:18 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 13 Coca-Cola, 1.25L
+12:52:18 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 14 Pepsi Cola, 1.25Liter
+12:52:18 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 15 Medium Tofu, 250gram
+12:52:18 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 16 Red Medium Apple, each
+12:52:18 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 17 Whole Papaya, 1kg
+12:52:18 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 18 Banana Cake, 250gram
+12:52:18 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 19 Fruit Cake, 250gram
+12:52:18 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 20 Peanuts, 100gram
+12:52:18 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Catalog contains 11 items
+12:52:18 INFO  firstgen.util.PropertyManager:loadProperties - loading properties from firstgen.properties
+12:52:18 DEBUG firstgen.util.PropertyManager:loadProperties - taxCalculator=firstgen.service.VATCalculator
+
+12:52:18 DEBUG firstgen.util.PropertyManager:loadProperties - salePricing=firstgen.service.PercentDiscount
+
+12:52:32 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 11
+12:52:32 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - found 11
+12:52:32 DEBUG firstgen.domain.Sale:addItem - adding item = Jasmine Brown Rice, 5kg @ 105.00
+12:52:32 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+12:52:37 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 12
+12:52:37 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - found 12
+12:52:37 DEBUG firstgen.domain.Sale:addItem - adding item = 3-No Light Soy Sauce @ 27.50
+12:52:37 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+12:52:40 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - looking for item 11
+12:52:40 INFO  firstgen.store.impl.MemoryProductCatalog:getItem - found 11
+12:52:40 DEBUG firstgen.domain.Sale:addItem - adding item = Jasmine Brown Rice, 5kg @ 105.00
+12:52:40 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+11:22:29 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Creating a mock product catalog from Stock enum
+11:22:29 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 10 Green Tea, 50gram
+11:22:29 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 11 Jasmine Brown Rice, 5kg
+11:22:29 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 12 Light Soy Sauce
+11:22:29 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 13 Coca-Cola, 1.25L
+11:22:29 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 14 Pepsi Cola, 1.25L
+11:22:29 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 15 Medium Tofu, 250gr
+11:22:29 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 16 Red Medium Apple, each
+11:22:29 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 17 Whole Papaya, 1kg
+11:22:29 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 18 Banana Cake, 250gr
+11:22:29 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 19 Fruit Cake, 250gr
+11:22:29 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 20 Peanuts, 100gr
+11:22:29 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Catalog contains 11 items
+11:22:40 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - looking for item 10
+11:22:40 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - found 10
+11:22:40 DEBUG firstgen.domain.Sale:addItem - adding item = Green Tea, 50gram @ 60.00
+11:22:40 ERROR firstgen.domain.Sale:getTax - Unknown Tax Calculator type null
+11:22:40 ERROR firstgen.domain.Sale:getTax - Unknown Tax Calculator type null
+11:22:40 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+11:23:36 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Creating a mock product catalog from Stock enum
+11:23:36 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 10 Green Tea, 50gram
+11:23:36 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 11 Jasmine Brown Rice, 5kg
+11:23:36 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 12 Light Soy Sauce
+11:23:36 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 13 Coca-Cola, 1.25L
+11:23:36 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 14 Pepsi Cola, 1.25L
+11:23:36 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 15 Medium Tofu, 250gr
+11:23:36 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 16 Red Medium Apple, each
+11:23:36 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 17 Whole Papaya, 1kg
+11:23:36 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 18 Banana Cake, 250gr
+11:23:36 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 19 Fruit Cake, 250gr
+11:23:36 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 20 Peanuts, 100gr
+11:23:36 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Catalog contains 11 items
+11:23:41 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - looking for item 10
+11:23:41 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - found 10
+11:23:41 DEBUG firstgen.domain.Sale:addItem - adding item = Green Tea, 50gram @ 60.00
+11:23:50 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - looking for item 10
+11:23:50 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - found 10
+11:23:50 DEBUG firstgen.domain.Sale:addItem - adding item = Green Tea, 50gram @ 60.00
+11:23:57 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - looking for item 12
+11:23:57 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - found 12
+11:23:57 DEBUG firstgen.domain.Sale:addItem - adding item = Light Soy Sauce @ 27.50
+11:27:02 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Creating a mock product catalog from Stock enum
+11:27:02 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 10 Green Tea, 50gram
+11:27:02 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 11 Jasmine Brown Rice, 5kg
+11:27:02 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 12 Light Soy Sauce
+11:27:02 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 13 Coca-Cola, 1.25L
+11:27:02 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 14 Pepsi Cola, 1.25L
+11:27:02 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 15 Medium Tofu, 250gr
+11:27:02 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 16 Red Medium Apple, each
+11:27:02 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 17 Whole Papaya, 1kg
+11:27:02 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 18 Banana Cake, 250gr
+11:27:02 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 19 Fruit Cake, 250gr
+11:27:02 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 20 Peanuts, 100gr
+11:27:02 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Catalog contains 11 items
+11:27:09 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - looking for item 10
+11:27:09 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - found 10
+11:27:09 DEBUG firstgen.domain.Sale:addItem - adding item = Green Tea, 50gram @ 60.00
+11:27:09 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+11:27:17 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - looking for item 14
+11:27:17 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - found 14
+11:27:17 DEBUG firstgen.domain.Sale:addItem - adding item = Pepsi Cola, 1.25L @ 23.00
+11:27:17 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+11:27:31 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - looking for item 29
+11:27:31 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - Item id 29 not found in catalog
+11:27:31 DEBUG firstgen.domain.Sale:addItem - adding item = null
+11:27:31 WARN  firstgen.domain.Sale:addItem - attempt to add null item to sale
+11:27:32 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - looking for item 29
+11:27:32 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - Item id 29 not found in catalog
+11:27:32 DEBUG firstgen.domain.Sale:addItem - adding item = null
+11:27:32 WARN  firstgen.domain.Sale:addItem - attempt to add null item to sale
+11:27:37 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - looking for item 20
+11:27:37 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - found 20
+11:27:37 DEBUG firstgen.domain.Sale:addItem - adding item = Peanuts, 100gr @ 10.00
+11:27:37 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+11:32:39 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Creating a mock product catalog from Stock enum
+11:32:39 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 10 Green Tea, 50gram
+11:32:39 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 11 Jasmine Brown Rice, 5kg
+11:32:39 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 12 Light Soy Sauce
+11:32:39 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 13 Coca-Cola, 1.25L
+11:32:39 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 14 Pepsi Cola, 1.25L
+11:32:39 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 15 Medium Tofu, 250gr
+11:32:39 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 16 Red Medium Apple, each
+11:32:39 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 17 Whole Papaya, 1kg
+11:32:39 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 18 Banana Cake, 250gr
+11:32:39 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 19 Fruit Cake, 250gr
+11:32:39 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - add to catalog: id 20 Peanuts, 100gr
+11:32:39 INFO  firstgen.store.impl.MemoryProductCatalog:<init> - Catalog contains 11 items
+11:32:43 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - looking for item 11
+11:32:43 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - found 11
+11:32:43 DEBUG firstgen.domain.Sale:addItem - adding item = Jasmine Brown Rice, 5kg @ 105.00
+11:32:43 DEBUG firstgen.ui.SaleTableModel:update - Notified by firstgen.domain.Sale
+11:32:46 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - looking for item 22
+11:32:46 INFO  firstgen.store.impl.MemoryProductCatalog:getProduct - Item id 22 not found in catalog

@@ -1,0 +1,10 @@
+applying uml and patterns 
+object-oriented analysis & design
+35% mid 
+35% final
+20% assignment
+10% participation
+
+analysis - investigation on the problem
+design - find conceptual solution
+OOA/D

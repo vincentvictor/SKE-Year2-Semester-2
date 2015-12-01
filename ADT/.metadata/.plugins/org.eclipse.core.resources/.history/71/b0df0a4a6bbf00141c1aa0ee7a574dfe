@@ -1,0 +1,18 @@
+package models;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="account)  
+public class Account extends Model{
+	@Id
+	public String username;
+	
+	@Constraints.Required
+	public String password;
+	
+	@Version  
+    Timestamp lastUpdate;  
+	//public String userID;
+	//public String password;
+}

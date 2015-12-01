@@ -1,0 +1,25 @@
+package controllers;
+
+import models.Note;
+import play.*;
+import play.api.data.Form;
+import play.mvc.*;
+import views.html.*;
+
+public class QuickNote extends Controller {
+
+    public static Result index() {
+        return ok(quicknote.render());
+    }
+    
+    
+    public static Result addNote() {
+    	// map data from HTTP request to an object.
+     	Note note = Form.form(Note.class).bindFromRequest().get();
+    // save it to database.
+    note.save();
+    // redirect to index
+    return index();
+    }
+
+}

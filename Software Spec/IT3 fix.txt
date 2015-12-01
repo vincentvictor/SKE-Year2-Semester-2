@@ -1,0 +1,52 @@
+Admin Navigator
+- Main Page: link to every admin pages
+- User Page
+- Team Page
+- Add Project Page
+- Add VoteCate Page
+========================================================================================
+
+User Navigator
+- Login Page
+- Project List Page: select any project 
+- Project Page: show project description
+- Vote Page
+========================================================================================
+
+User
+- create logout
+- page protection 
+	- check who user is
+	- user = NULL in user page, show dialog that not login and redirect to login page
+	- user = NULL in admin page, redirect to login
+	- user try to access admin page, redirect to user main page
+- User Page: check user not exceed 20 characters (any number)
+- User Page: clear all can be used
+- Team Page: can delete last user from team
+- Team Page: check team name not exceed 20 characters (any number)
+- Team Page: check team name = NULL
+
+========================================================================================
+
+Project
+- user still login (session.getUser()<<< example is in Application test() )
+- create logout
+- Add Project Page: check same project name, check not exceed 20 characters (any number)
+- Project Page: fix when add project = NULL
+- Project Page: remove average point from previous vote
+- Project Page: change "Make Vote" >>> "Vote"
+- Project Page: edit project description function 
+- Project Page: upload avatar picture of each team
+- Project Page: screen shots
+- Project List: UI
+========================================================================================
+
+Vote
+- user still login (session.getUser()<<< example is in Application test() )
+- create logout
+- Result Page: calculate every point from any category
+- Vote Page: UI for vote
+- Vote Page: change "Make Vote" >>> "Vote"
+- Add VoteCate Page: fix add vote cate = NULL
+
+

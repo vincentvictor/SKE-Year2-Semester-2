@@ -1,0 +1,10 @@
+package models;
+
+import javax.persistence.*;
+
+@Entity
+public class Account extends Model{
+	
+	//public String userID;
+	//public String password;
+}
